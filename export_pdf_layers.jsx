@@ -50,7 +50,7 @@ for(var i=0; i<doc.layers.length; i++) {
 function savePDF( file ) {
 	
 	var saveOpts = new PDFSaveOptions();
-	saveOpts.compatibility = PDFCompatibility.ACROBAT6;
+	saveOpts.compatibility = PDFCompatibility.ACROBAT5;
 	saveOpts.generateThumbnails = true;
 	saveOpts.preserveEditability = false;
 				
